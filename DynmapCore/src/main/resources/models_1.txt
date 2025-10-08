@@ -4727,3 +4727,6 @@ modellist:id=%dropper,state=facing:down,box=0.000000/0.000000/0.000000:16.000000
 
 # Bush
 [1.21.5-]modellist:id=%bush,box=0.800000/0.000000/8.000000/false:15.200000/16.000000/8.000000/0.000000/45.000000/0.000000/8.000000/8.000000/8.000000:n/0/0.000000/0.000000/16.000000/16.000000:s/0/0.000000/0.000000/16.000000/16.000000,box=8.000000/0.000000/0.800000/false:8.000000/16.000000/15.200000/0.000000/45.000000/0.000000/8.000000/8.000000/8.000000:e/0/0.000000/0.000000/16.000000/16.000000:w/0/0.000000/0.000000/16.000000/16.000000
+
+# Copper chests
+[1.21.9-]customblock:id=copper_chest,id=exposed_copper_chest,id=weathered_copper_chest,id=oxidized_copper_chest,id=waxed_copper_chest,id=waxed_exposed_copper_chest,id=waxed_weathered_copper_chest,id=waxed_oxidized_copper_chest,class=org.dynmap.hdmap.renderer.ChestStateRenderer,doublechest=true

@@ -6080,3 +6080,20 @@ block:id=%melon_stem,patch0=0:melon_stem,blockcolor=foliagebiome,transparency=TR
 # Bush
 [1.21.5-]texture:id=bush,filename=assets/minecraft/textures/block/bush.png,xcount=1,ycount=1
 [1.21.5-]block:id=%bush,patch0=2000:bush,transparency=TRANSPARENT,stdrot=true
+
+# Copper chests
+[1.21.9-]texturefile:id=copper_chest,filename=assets/minecraft/textures/entity/chest/copper.png,format=CHEST
+[1.21.9-]texturefile:id=bigcopperchest,filename=assets/minecraft/textures/entity/chest/copper_double.png,format=BIGCHEST
+[1.21.9-]block:id=copper_chest,id=waxed_copper_chest,data=*,patch0=0:copper_chest,patch1=1:copper_chest,patch2=2:copper_chest,patch3=3:copper_chest,patch4=4:copper_chest,patch5=5:copper_chest,patch6=0:bigcopperchest,patch7=1:bigcopperchest,patch8=2:bigcopperchest,patch9=3:bigcopperchest,patch10=4:bigcopperchest,patch11=5:bigcopperchest,patch12=6:bigcopperchest,patch13=7:bigcopperchest,patch14=8:bigcopperchest,patch15=9:bigcopperchest
+
+[1.21.9-]texturefile:id=exposed_copper_chest,filename=assets/minecraft/textures/entity/chest/copper_exposed.png,format=CHEST
+[1.21.9-]texturefile:id=bigexposedcopperchest,filename=assets/minecraft/textures/entity/chest/copper_exposed_double.png,format=BIGCHEST
+[1.21.9-]block:id=exposed_copper_chest,id=waxed_exposed_copper_chest,data=*,patch0=0:exposed_copper_chest,patch1=1:exposed_copper_chest,patch2=2:exposed_copper_chest,patch3=3:exposed_copper_chest,patch4=4:exposed_copper_chest,patch5=5:exposed_copper_chest,patch6=0:bigexposedcopperchest,patch7=1:bigexposedcopperchest,patch8=2:bigexposedcopperchest,patch9=3:bigexposedcopperchest,patch10=4:bigexposedcopperchest,patch11=5:bigexposedcopperchest,patch12=6:bigexposedcopperchest,patch13=7:bigexposedcopperchest,patch14=8:bigexposedcopperchest,patch15=9:bigexposedcopperchest
+
+[1.21.9-]texturefile:id=weathered_copper_chest,filename=assets/minecraft/textures/entity/chest/copper_weathered.png,format=CHEST
+[1.21.9-]texturefile:id=bigweatheredcopperchest,filename=assets/minecraft/textures/entity/chest/copper_weathered_double.png,format=BIGCHEST
+[1.21.9-]block:id=weathered_copper_chest,id=waxed_weathered_copper_chest,data=*,patch0=0:weathered_copper_chest,patch1=1:weathered_copper_chest,patch2=2:weathered_copper_chest,patch3=3:weathered_copper_chest,patch4=4:weathered_copper_chest,patch5=5:weathered_copper_chest,patch6=0:bigweatheredcopperchest,patch7=1:bigweatheredcopperchest,patch8=2:bigweatheredcopperchest,patch9=3:bigweatheredcopperchest,patch10=4:bigweatheredcopperchest,patch11=5:bigweatheredcopperchest,patch12=6:bigweatheredcopperchest,patch13=7:bigweatheredcopperchest,patch14=8:bigweatheredcopperchest,patch15=9:bigweatheredcopperchest
+
+[1.21.9-]texturefile:id=oxidized_copper_chest,filename=assets/minecraft/textures/entity/chest/copper_oxidized.png,format=CHEST
+[1.21.9-]texturefile:id=bigooxidizedcopperchest,filename=assets/minecraft/textures/entity/chest/copper_oxidized_double.png,format=BIGCHEST
+[1.21.9-]block:id=oxidized_copper_chest,id=waxed_oxidized_copper_chest,data=*,patch0=0:oxidized_copper_chest,patch1=1:oxidized_copper_chest,patch2=2:oxidized_copper_chest,patch3=3:oxidized_copper_chest,patch4=4:oxidized_copper_chest,patch5=5:oxidized_copper_chest,patch6=0:bigooxidizedcopperchest,patch7=1:bigooxidizedcopperchest,patch8=2:bigooxidizedcopperchest,patch9=3:bigooxidizedcopperchest,patch10=4:bigooxidizedcopperchest,patch11=5:bigooxidizedcopperchest,patch12=6:bigooxidizedcopperchest,patch13=7:bigooxidizedcopperchest,patch14=8:bigooxidizedcopperchest,patch15=9:bigooxidizedcopperchest
